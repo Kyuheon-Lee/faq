@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 0 12px;
+    height: 48px;
+    margin-bottom: 24px;
+    background-color: #fafafa;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: transparent;
+    min-width: 0;
+    color: black;
+}
+
+.input::placeholder {
+    color: #aaa;
+}
+
+.clearButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}

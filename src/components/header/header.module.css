@@ -1,0 +1,15 @@
+.root {
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
